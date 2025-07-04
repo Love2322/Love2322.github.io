@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Special Gift For You</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- စကားဝှက်ထည့်ရန် စာမျက်နှာ -->
+  <div id="password-section" class="page-container active">
+    <div class="card">
+      <h1>အမှတ်တရ စကားဝှက်လေးထည့်ပေးပါ</h1>
+      <input type="password" id="password-input" placeholder="စကားဝှက်">
+      <button id="submit-btn">ဝင်မယ်</button>
+      <p id="error-message"></p>
+    </div>
+  </div>
+
+  <!-- အဓိက လက်ဆောင် စာမျက်နှာ -->
+  <div id="love-section" class="page-container">
+    <!-- ပျံတက်နေမယ့် အသဲပုံတွေအတွက် နေရာ -->
+    <div id="hearts-container"></div>
+    
+    <!-- ပထမဆုံးပေါ်မယ့် အသဲပုံဗူး -->
+    <div id="initial-view">
+      <div class="card">
+        <div class="heart-box" id="heart-box"></div>
+        <p class="instruction">အသည်းပုံလေးကို နှိပ်ပါ</p>
+      </div>
+    </div>
+
+    <!-- နှိပ်ပြီးမှ ပေါ်လာမယ့် စာ -->
+    <div id="final-view">
+      <h1 class="love-text">
+        <span>အ</span><span>ရ</span><span>မ်</span><span>း</span><span>ခ</span><span>ျ</span><span>စ်</span><span>တ</span><span>ယ်</span>
+      </h1>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
